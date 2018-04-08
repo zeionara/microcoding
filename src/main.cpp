@@ -13,14 +13,10 @@ void run() {
 
     bool flag = false;
 
-    while(PERMANENTLY_EXECUTE or !flag) {
-
+    while (PERMANENTLY_EXECUTE or !flag) {
         execute_program();
-
         ic = 0;
-
         flag = true;
-
     }
 
 }
@@ -28,10 +24,7 @@ void run() {
 int main() {
 
     init_control_unit();
-
     run();
-
-
     return 0;
 
 }
